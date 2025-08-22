@@ -1,0 +1,24 @@
+a1=input("Boy name :")
+b1=input("Girl name :")
+a=list(a1)
+b=list(b1)
+for i in range(len(a)):
+    for j in range(len(b)):
+        if a[i]==b[j]:
+            a[i]="4"
+            b[j]="4"
+print(a,"\n",b)
+c=0
+for i in a:
+    if i!="4":
+        c+=1
+for i in b:
+    if i!="4":
+        c+=1
+print(c)
+r=list("FLAMES")
+f=0
+for i in range(5):
+    f=(f+(c-1))%len(r)
+    r.pop(f)
+print(r[0])
