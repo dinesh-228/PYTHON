@@ -1,0 +1,6 @@
+std = ["ANU","ANI","BALA","RAVI","RAJU","JACK"]
+cgp = [59,90,47,88,78,69]
+arrer=[0,1,2,1,0,0]
+for i in range(len(std)):
+    if cgp[i]>=60 and arrer[i]== 0:
+        print(std[i])
