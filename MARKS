@@ -1,0 +1,4 @@
+a=["maruthi","sharath","dharshan","bharath"]
+m=[[34,56,78,91],[45,93,75,82],[100,76,98,76],[62,55,67,87]]
+for i in range(len(a)):
+    print(i+1,". ",a[i]," : ",(sum(m[i]))//4,"%")
