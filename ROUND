@@ -1,0 +1,10 @@
+n=int(input("Enter number : "))
+num=[]
+num.append(n)
+while(n!=1 and n not in num):
+    n = sum([int(i)*int(i) for i  in str(n)])
+    num.append(n)
+if (n==1):
+    print("Round number")
+else:
+    print("not a round number")
